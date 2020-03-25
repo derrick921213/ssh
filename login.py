@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'login.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.1
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName("Dialog")
+        Dialog.resize(834, 464)
+        self.lineEdit = QtWidgets.QLineEdit(Dialog)
+        self.lineEdit.setGeometry(QtCore.QRect(210, 120, 151, 22))
+        self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit_2 = QtWidgets.QLineEdit(Dialog)
+        self.lineEdit_2.setGeometry(QtCore.QRect(210, 180, 151, 22))
+        self.lineEdit_2.setInputMask("")
+        self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.lineEdit_2.setReadOnly(False)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.pushButton_2 = QtWidgets.QPushButton(Dialog)
+        self.pushButton_2.setGeometry(QtCore.QRect(260, 330, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Adobe Arabic")
+        font.setPointSize(20)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.label_3 = QtWidgets.QLabel(Dialog)
+        self.label_3.setGeometry(QtCore.QRect(70, 250, 131, 31))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label_3.setFont(font)
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.label_2 = QtWidgets.QLabel(Dialog)
+        self.label_2.setGeometry(QtCore.QRect(70, 180, 121, 31))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label_2.setFont(font)
+        self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_2.setObjectName("label_2")
+        self.pushButton = QtWidgets.QPushButton(Dialog)
+        self.pushButton.setGeometry(QtCore.QRect(100, 330, 101, 41))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.pushButton.setFont(font)
+        self.pushButton.setObjectName("pushButton")
+        self.label = QtWidgets.QLabel(Dialog)
+        self.label.setGeometry(QtCore.QRect(80, 120, 91, 31))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label.setFont(font)
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName("label")
+        self.lineEdit_4 = QtWidgets.QLineEdit(Dialog)
+        self.lineEdit_4.setGeometry(QtCore.QRect(210, 260, 151, 22))
+        self.lineEdit_4.setInputMask("")
+        self.lineEdit_4.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.lineEdit_4.setReadOnly(False)
+        self.lineEdit_4.setObjectName("lineEdit_4")
+        self.label_4 = QtWidgets.QLabel(Dialog)
+        self.label_4.setGeometry(QtCore.QRect(50, 40, 361, 41))
+        font = QtGui.QFont()
+        font.setFamily("Adobe 繁黑體 Std B")
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_4.setFont(font)
+        self.label_4.setObjectName("label_4")
+        self.plainTextEdit = QtWidgets.QPlainTextEdit(Dialog)
+        self.plainTextEdit.setGeometry(QtCore.QRect(450, 20, 321, 421))
+        self.plainTextEdit.setObjectName("plainTextEdit")
+        self.pushButton_3 = QtWidgets.QPushButton(Dialog)
+        self.pushButton_3.setGeometry(QtCore.QRect(140, 390, 161, 41))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setObjectName("pushButton_3")
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+    def retranslateUi(self, Dialog):
+        _translate = QtCore.QCoreApplication.translate
+        Dialog.setWindowTitle(_translate("Dialog", "管理後臺"))
+        self.pushButton_2.setText(_translate("Dialog", "關閉"))
+        self.label_3.setText(_translate("Dialog", "Hostname:"))
+        self.label_2.setText(_translate("Dialog", "password:"))
+        self.pushButton.setText(_translate("Dialog", "登入"))
+        self.label.setText(_translate("Dialog", "user:"))
+        self.label_4.setText(_translate("Dialog", "歡迎登入星夜伺服器後台"))
+        self.pushButton_3.setText(_translate("Dialog", "測試主機"))
