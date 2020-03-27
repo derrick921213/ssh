@@ -1,8 +1,8 @@
 from PyQt5 import *
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel,QPushButton, QLineEdit, QMenuBar, QStatusBar
+from PyQt5.QtWidgets import QApplication, QMainWindow, QtWidgets, QLabel,QPushButton, QLineEdit, QMenuBar, QStatusBar
+from PyQt5 import QtCore, QtGui, QtWidgets
 import paramiko as s
 import sys,ping,os
-from paramiko import SSHException
 #----------------------------------------------------------------#
 #class MainWindow(QtWidgets.QMainWindow):
  #   def __init__(self):
